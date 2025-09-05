@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.page-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-body {
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.dashboard-container {
+    color: #ffffff;
+    font-family: "Roboto";
+    background-color: #002159;
+    font-size: 14px;
+    padding: 10px;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+.dashboard-sections-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    box-sizing: content-box;
+}
+
+.dashboard-icons {
+    color: #ffffff;
+}
+
+.dashboard-icon-name {
+    color: #ffffff;
+    font-family: "Roboto";
+    padding-left: 8px;
+}
+
+.spacing {
+    margin: 6px;
+}
+
+.spacing-container {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 90%;
+}
+
+.profile-text-container {
+    display: flex;
+}
+
+.profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+.profile-name {
+    font-family: "Roboto";
+    font-size: 16px;
+    align-self: center;
+    padding-left: 8px;
+}
+
+.favourites-background {
+    background-color: #296eff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+
+.favourites-container {
+    padding: 15px;
+    color: #002159;
+    font-family: "Roboto";
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.favourite-images-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favourite-images {
+    width: 30%;
+    margin: 5px;
+}
+
+.favourite-sections-container {
+    margin-top: 30px;
+}
